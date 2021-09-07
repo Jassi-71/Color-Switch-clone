@@ -39,28 +39,30 @@ Adding in VM/Ubuntu options -
 ## Demo
 
 <p float="left">
-  <img src="Readme-photos/homepage.png" width="300" height="450">
-  <img src="Readme-photos/startpage.jpg" width="300" height="450">
-  <img src="Readme-photos/obsticle.jpg" width="320" height="460">
+  <img src="Readme-photos/homepage.png" width="310" height="430">
+  <img src="Readme-photos/startpage.jpg" width="310" height="430">
+  <img src="Readme-photos/obsticle.jpg" width="310" height="440">
 </p>
 <p float="left">
-  <img src="Readme-photos/crossobsticle.png" width="300" height="450">
-  <img src="Readme-photos/line_obsticle.png" width="300" height="450">
-  <img src="Readme-photos/rectangle_obsticle.png" width="300" height="450">
+  <img src="Readme-photos/crossobsticle.png" width="310" height="430">
+  <img src="Readme-photos/line_obsticle.png" width="310" height="430">
+  <img src="Readme-photos/rectangle_obsticle.png" width="310" height="430">
 </p>
 <p float="left">
-  <img src="Readme-photos/doblle_circle.png" width="300" height="450">
-  <img src="Readme-photos/level2.png" width="300" height="450">
-  <img src="Readme-photos/pause.PNG" width="300" height="450">
+  <img src="Readme-photos/doblle_circle.png" width="310" height="430">
+  <img src="Readme-photos/fluidAnimation.png" width="310" height="430">
+  <img src="Readme-photos/level2.png" width="310" height="430">
 </p>
 <p float="left">
-  <img src="Readme-photos/noSavedGame.jpg" width="300" height="450">
-  <img src="Readme-photos/gamesaved.jpg" width="300" height="450">
-  <img src="Readme-photos/cost5notavailable.jpg" width="300" height="450">
+  <img src="Readme-photos/noSavedGame.jpg" width="310" height="430">
+  <img src="Readme-photos/cost5notavailable.jpg" width="310" height="430">
+  <img src="Readme-photos/pause.PNG" width="310" height="430">
 </p>
 <p float="left">
-  <img src="Readme-photos/endgame.png" width="300" height="450">
-  <img src="Readme-photos/topscore.PNG" width="300" height="450">
+  <img src="Readme-photos/pause.PNG" width="310" height="430">
+  <img src="Readme-photos/gamesaved.jpg" width="310" height="430">
+  <img src="Readme-photos/endgame.png" width="310" height="430">
+  <img src="Readme-photos/topscore.PNG" width="310" height="430">
 </p>
 
 
