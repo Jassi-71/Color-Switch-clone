@@ -1725,13 +1725,13 @@ class Player{
         if (ball.getY() - ball.getV()<=350){
             double diff = 350 - (ball.getY() - ball.getV());
             ball.setY(350);
-            if (this.star.getInAction()==true){
+            if (this.star.getInAction()){
                 this.star.setY(this.star.getY()+diff);
             }
             if (this.star.getY() - this.star.getHeight()>600){
                 this.star.setInAction(false);
             }
-            if (this.colorswitch.getInAction()==true){
+            if (this.colorswitch.getInAction()){
                 this.colorswitch.setY(this.colorswitch.getY()+diff);
             }
             if (this.colorswitch.getY() - this.colorswitch.getHeight()>600){
@@ -1744,8 +1744,8 @@ class Player{
                     this.obsticle1 = temp;
                     this.obsticle1.setY(-this.obsticle1.getHeight()/2);
 
-                    if (this.star.getInAction()==false){
-                        if (this.colorswitch.getInAction()==false){
+                    if (!this.star.getInAction()){
+                        if (!this.colorswitch.getInAction()){
                             int val = random.nextInt(3);
                             if (val==0){
                                 this.star.setY(this.obsticle1.getY() - this.obsticle1.getHeight()/2 - 100);
