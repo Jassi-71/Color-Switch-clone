@@ -140,9 +140,7 @@ class Rectangle extends Obsticle{
                     double m = (y1-y2)/(x1-x2);
                     double val = Math.abs((a1*m - b1 + y1 - m*x1)/(Math.sqrt(1 + m*m)));
                     if (val<this.getWidth()){
-                        if (!c.equals("red")){
-                            return true;
-                        }
+                        return !c.equals("red");
                     }
                 }
             }
@@ -153,9 +151,7 @@ class Rectangle extends Obsticle{
                     double m = (y1-y2)/(x1-x2);
                     double val = Math.abs((a1*m - b1 + y1 - m*x1)/(Math.sqrt(1 + m*m)));
                     if (val<this.getWidth()){
-                        if (!c.equals("yellow")){
-                            return true;
-                        }
+                        return !c.equals("yellow");
                     }
                 }
             }
@@ -166,9 +162,7 @@ class Rectangle extends Obsticle{
                     double m = (y1-y2)/(x1-x2);
                     double val = Math.abs((a1*m - b1 + y1 - m*x1)/(Math.sqrt(1 + m*m)));
                     if (val<this.getWidth()){
-                        if (!c.equals("blue")){
-                            return true;
-                        }
+                        return !c.equals("blue");
                     }
                 }
             }
@@ -179,9 +173,7 @@ class Rectangle extends Obsticle{
                     double m = (y1-y2)/(x1-x2);
                     double val = Math.abs((a1*m - b1 + y1 - m*x1)/(Math.sqrt(1 + m*m)));
                     if (val<this.getWidth()){
-                        if (!c.equals("green")){
-                            return true;
-                        }
+                        return !c.equals("green");
                     }
                 }
             }
@@ -194,9 +186,7 @@ class Rectangle extends Obsticle{
                     double m = (y1-y2)/(x1-x2);
                     double val = Math.abs((a1*m - b1 + y1 - m*x1)/(Math.sqrt(1 + m*m)));
                     if (val<this.getWidth()){
-                        if (!c.equals("red")){
-                            return true;
-                        }
+                        return !c.equals("red");
                     }
                 }
             }
@@ -207,9 +197,7 @@ class Rectangle extends Obsticle{
                     double m = (y1-y2)/(x1-x2);
                     double val = Math.abs((a1*m - b1 + y1 - m*x1)/(Math.sqrt(1 + m*m)));
                     if (val<this.getWidth()){
-                        if (!c.equals("yellow")){
-                            return true;
-                        }
+                        return !c.equals("yellow");
                     }
                 }
             }
@@ -220,9 +208,7 @@ class Rectangle extends Obsticle{
                     double m = (y1-y2)/(x1-x2);
                     double val = Math.abs((a1*m - b1 + y1 - m*x1)/(Math.sqrt(1 + m*m)));
                     if (val<this.getWidth()){
-                        if (!c.equals("blue")){
-                            return true;
-                        }
+                        return !c.equals("blue");
                     }
                 }
             }
@@ -233,9 +219,7 @@ class Rectangle extends Obsticle{
                     double m = (y1-y2)/(x1-x2);
                     double val = Math.abs((a1*m - b1 + y1 - m*x1)/(Math.sqrt(1 + m*m)));
                     if (val<this.getWidth()){
-                        if (!c.equals("green")){
-                            return true;
-                        }
+                        return !c.equals("green");
                     }
                 }
             }
@@ -319,9 +303,7 @@ class MyCircle extends Obsticle{
                 double val;
                 val = Math.abs(b.getY() - this.getY());
                 if (val<=this.getR()+b.getR()+this.getWidth()/2 && val>=this.getR()){
-                    if (!c.equals("green")){
-                        return true;
-                    }
+                    return !c.equals("green");
                 }
             }
         }
@@ -357,9 +339,7 @@ class MyCircle extends Obsticle{
                 double val;
                 val = Math.abs(b.getY() - this.getY());
                 if (val<=this.getR()+b.getR()+this.getWidth()/2 && val>=this.getR()){
-                    if (!c.equals("green")){
-                        return true;
-                    }
+                    return !c.equals("green");
                 }
             }
         }
@@ -460,9 +440,7 @@ class DoubleCircle extends MyCircle{
                 double val;
                 val = Math.abs(b.getY() - this.getY());
                 if (val<=this.getR()+b.getR()+2*this.getWidth() && val>=this.getR()){
-                    if (!c.equals("green")){
-                        return true;
-                    }
+                    return !c.equals("green");
                 }
             }
         }
@@ -498,9 +476,7 @@ class DoubleCircle extends MyCircle{
                 double val;
                 val = Math.abs(b.getY() - this.getY());
                 if (val<=this.getR()+b.getR()+2*this.getWidth() && val>=this.getR()){
-                    if (!c.equals("green")){
-                        return true;
-                    }
+                    return !c.equals("green");
                 }
             }
         }
@@ -622,9 +598,7 @@ class TripleCircle extends MyCircle{
                 double val;
                 val = Math.abs(b.getY() - this.getY());
                 if (val<=this.getR()+b.getR()+3*this.getWidth() && val>=this.getR()){
-                    if (!c.equals("green")){
-                        return true;
-                    }
+                    return !c.equals("green");
                 }
             }
         }
@@ -660,9 +634,7 @@ class TripleCircle extends MyCircle{
                 double val;
                 val = Math.abs(b.getY() - this.getY());
                 if (val<=this.getR()+b.getR()+3*this.getWidth() && val>=this.getR()){
-                    if (!c.equals("green")){
-                        return true;
-                    }
+                    return !c.equals("green");
                 }
             }
         }
@@ -718,9 +690,7 @@ class Parallelogram extends Obsticle{
                     double m = (y1-y2)/(x1-x2);
                     double val = Math.abs((a1*m - b1 + y1 - m*x1)/(Math.sqrt(1 + m*m)));
                     if (val<this.getWidth()){
-                        if (!c.equals("red")){
-                            return true;
-                        }
+                        return !c.equals("red");
                     }
                 }
             }
@@ -731,9 +701,7 @@ class Parallelogram extends Obsticle{
                     double m = (y1-y2)/(x1-x2);
                     double val = Math.abs((a1*m - b1 + y1 - m*x1)/(Math.sqrt(1 + m*m)));
                     if (val<this.getWidth()){
-                        if (!c.equals("yellow")){
-                            return true;
-                        }
+                        return !c.equals("yellow");
                     }
                 }
             }
@@ -744,9 +712,7 @@ class Parallelogram extends Obsticle{
                     double m = (y1-y2)/(x1-x2);
                     double val = Math.abs((a1*m - b1 + y1 - m*x1)/(Math.sqrt(1 + m*m)));
                     if (val<this.getWidth()){
-                        if (!c.equals("blue")){
-                            return true;
-                        }
+                        return !c.equals("blue");
                     }
                 }
             }
@@ -757,9 +723,7 @@ class Parallelogram extends Obsticle{
                     double m = (y1-y2)/(x1-x2);
                     double val = Math.abs((a1*m - b1 + y1 - m*x1)/(Math.sqrt(1 + m*m)));
                     if (val<this.getWidth()){
-                        if (!c.equals("green")){
-                            return true;
-                        }
+                        return !c.equals("green");
                     }
                 }
             }
@@ -772,9 +736,7 @@ class Parallelogram extends Obsticle{
                     double m = (y1-y2)/(x1-x2);
                     double val = Math.abs((a1*m - b1 + y1 - m*x1)/(Math.sqrt(1 + m*m)));
                     if (val<this.getWidth()){
-                        if (!c.equals("red")){
-                            return true;
-                        }
+                        return !c.equals("red");
                     }
                 }
             }
@@ -785,9 +747,7 @@ class Parallelogram extends Obsticle{
                     double m = (y1-y2)/(x1-x2);
                     double val = Math.abs((a1*m - b1 + y1 - m*x1)/(Math.sqrt(1 + m*m)));
                     if (val<this.getWidth()){
-                        if (!c.equals("yellow")){
-                            return true;
-                        }
+                        return !c.equals("yellow");
                     }
                 }
             }
@@ -798,9 +758,7 @@ class Parallelogram extends Obsticle{
                     double m = (y1-y2)/(x1-x2);
                     double val = Math.abs((a1*m - b1 + y1 - m*x1)/(Math.sqrt(1 + m*m)));
                     if (val<this.getWidth()){
-                        if (!c.equals("blue")){
-                            return true;
-                        }
+                        return !c.equals("blue");
                     }
                 }
             }
@@ -811,9 +769,7 @@ class Parallelogram extends Obsticle{
                     double m = (y1-y2)/(x1-x2);
                     double val = Math.abs((a1*m - b1 + y1 - m*x1)/(Math.sqrt(1 + m*m)));
                     if (val<this.getWidth()){
-                        if (!c.equals("green")){
-                            return true;
-                        }
+                        return !c.equals("green");
                     }
                 }
             }
@@ -1042,9 +998,7 @@ class Line_Obsticle extends Obsticle{
         }
         if (Math.abs(l4.getStartX()-l5.getStartX())<=2*b.getR()){
             if (b.getY()<=l5.getEndY() && b.getY()>=l5.getStartY()){
-                if (!c.equals("green")){
-                    return true;
-                }
+                return !c.equals("green");
             }
         }
 
@@ -1126,10 +1080,7 @@ class Star extends Group{
     }
     public boolean collide(Player p){
         Ball b = p.getBall();
-        if (Math.abs(b.getY() - this.getY())<=this.getR()){
-            return true;
-        }
-        return false;
+        return Math.abs(b.getY() - this.getY()) <= this.getR();
     }
 
 }
@@ -1195,10 +1146,7 @@ class ColorSwitch extends Group{
     }
     public boolean collide(Player p){
         Ball b = p.getBall();
-        if (Math.abs(b.getY() - this.getY())<=this.getR()+b.getR()){
-            return true;
-        }
-        return false;
+        return Math.abs(b.getY() - this.getY()) <= this.getR() + b.getR();
     }
 }
 
@@ -1338,7 +1286,7 @@ class Player{
         this.stars = 0;
         this.random = new Random();
         this.distance = 0.0d;
-        String path = System.getProperty("user.dir")+"/sound.mp3";
+        String path = System.getProperty("user.dir")+"/sound.wav";
         Media media = new Media(new File(path).toURI().toString());
         this.sound = new MediaPlayer(media);
         this.movable = true;
