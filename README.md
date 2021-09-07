@@ -1,5 +1,5 @@
 
-## Color-Switch 
+# Color-Switch 
 
 Developed a replica of the Color Switch game with various new
 obstacles and increasing difficulty level as the game progresses.
@@ -37,6 +37,32 @@ Adding in VM/Ubuntu options -
 
   
 ## Demo
+
+<p float="left">
+  <img src="Readme-photos/homepage.png" width="300" height="450">
+  <img src="Readme-photos/startpage.jpg" width="300" height="450">
+  <img src="Readme-photos/obsticle.jpg" width="320" height="460">
+</p>
+<p float="left">
+  <img src="Readme-photos/crossobsticle.png" width="300" height="450">
+  <img src="Readme-photos/line_obsticle.png" width="300" height="450">
+  <img src="Readme-photos/rectangle_obsticle.png" width="300" height="450">
+</p>
+<p float="left">
+  <img src="Readme-photos/doblle_circle.png" width="300" height="450">
+  <img src="Readme-photos/level2.png" width="300" height="450">
+  <img src="Readme-photos/pause.PNG" width="300" height="450">
+</p>
+<p float="left">
+  <img src="Readme-photos/noSavedGame.jpg" width="300" height="450">
+  <img src="Readme-photos/gamesaved.jpg" width="300" height="450">
+  <img src="Readme-photos/cost5notavailable.jpg" width="300" height="450">
+</p>
+<p float="left">
+  <img src="Readme-photos/endgame.png" width="300" height="450">
+  <img src="Readme-photos/topscore.PNG" width="300" height="450">
+</p>
+
 
 
   
