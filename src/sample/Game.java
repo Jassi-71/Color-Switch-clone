@@ -1432,12 +1432,12 @@ class Player{
                 if (bally>=this.getObsticle1().getY()){
                     this.getBall().setY(this.getObsticle1().getY() + 150);
                     this.getBall().setV(0);
-                    System.out.println("Obsticle1 position is :- "+this.getObsticle1().getY()+" and ball at :- "+this.getBall().getY());
+                    //System.out.println("Obsticle1 position is :- "+this.getObsticle1().getY()+" and ball at :- "+this.getBall().getY());
                 }
                 else{
                     this.getBall().setY(this.getObsticle1().getY() - 150);
                     this.getBall().setV(3);
-                    System.out.println("Obsticle1 position is :- "+this.getObsticle1().getY()+" and ball at :- "+this.getBall().getY());
+                    //System.out.println("Obsticle1 position is :- "+this.getObsticle1().getY()+" and ball at :- "+this.getBall().getY());
                 }
             }
             else{
