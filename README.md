@@ -39,9 +39,9 @@ Adding in VM/Ubuntu options -
 ## Demo
 
 <p float="left">
-  <img src="Readme-photos/homepage.png" width="300" height="400">
-  <img src="Readme-photos/startpage.jpg" width="300" height="400">
-  <img src="Readme-photos/obsticle.jpg" width="300" height="410">
+  <img src="Readme-photos/homepage.png" width="250" height="350">
+  <img src="Readme-photos/startpage.jpg" width="250" height="350">
+  <img src="Readme-photos/obsticle.jpg" width="250" height="360">
 </p>
 <p float="left">
   <img src="Readme-photos/crossobsticle.png" width="300" height="400">
