@@ -1336,7 +1336,7 @@ class Player{
         this.stars = 0;
         this.random = new Random();
         this.distance = 0.0d;
-        String path = System.getProperty("user.dir")+"/sound.mp3";
+        String path = System.getProperty("user.dir")+"/sound.wav";
         Media media = new Media(new File(path).toURI().toString());
         this.sound = new MediaPlayer(media);
         this.movable = true;
