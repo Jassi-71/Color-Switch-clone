@@ -1575,7 +1575,7 @@ class Player{
 
                     /////////////////////////////////////
                     if (getScore()>=topscore){
-                        System.out.println("Top score made !");
+//                        System.out.println("Top score made !");
                         FadeTransition ft = new FadeTransition(Duration.millis(2000),game.top_score);
                         ft.setFromValue(1);
                         ft.setToValue(0);
