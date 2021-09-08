@@ -39,7 +39,7 @@ Adding in VM/Ubuntu options -
 ## Demo
 
 #### The demo vedio of game made by us - [Demo Vedio Link](https://youtu.be/l9FwKRRNLKI) 
-#### Please do check it out
+Please do check it out guys. 🙂
 
 <p float="left">
   <img src="Readme-photos/homepage.png" width="260" height="350">
@@ -76,5 +76,5 @@ Adding in VM/Ubuntu options -
 <br />
 
 
-#You have made to the end, Hurray! <br />
-#Thanks for reading, hoping you like it. 🙂
+You have made to the end, Hurray! <br />
+Thanks for reading, hoping you like it. 🙂
