@@ -15,7 +15,7 @@ In this project, various features have been included, such as -
 - Resuming the game
 - Once out, gets another chance to continue at the price of 5 coins.
 
-Actual Game video Link - https://www.youtube.com/watch?v=-KV35ZXSW8s&t=197s
+Actual Game video Link - [Vedio Link](https://www.youtube.com/watch?v=-KV35ZXSW8s&t=197s)
 
 ## How to run this game on your device?
 
@@ -37,6 +37,9 @@ Adding in VM/Ubuntu options -
 
   
 ## Demo
+
+#### The demo vedio of game made by us - [Demo Vedio Link](https://youtu.be/l9FwKRRNLKI) 
+#### Please do check it out
 
 <p float="left">
   <img src="Readme-photos/homepage.png" width="260" height="350">
@@ -70,5 +73,8 @@ Adding in VM/Ubuntu options -
 
 - [@Jasdeep](https://github.com/Jassi-71)
 - [@Rohit](https://github.com/rohit18259)
+<br />
 
-  
+
+#You have made to the end, Hurray! <br />
+#Thanks for reading, hoping you like it. 🙂
